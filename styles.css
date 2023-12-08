@@ -1,0 +1,66 @@
+/* Resetting default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+h1 {
+    color: #0077cc;
+}
+
+section {
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+.profile-image {
+    width: 250px; /* Adjust the width as needed */
+    height: auto; /* To maintain the aspect ratio */
+    border-radius: 50%; /* Makes the image round (assuming it's a square image) */
+    border: 2px solid #0077cc; /* Adds a border with a specified color */
+    display: block; /* Ensures it's a block element for better styling */
+    margin: 0 auto 20px; /* Centers the image and adds space below */
+}
+
+
+h2 {
+    color:#0077cc;
+}
+
+h3 {
+    color: #0077cc;
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
